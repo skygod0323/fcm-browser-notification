@@ -1,0 +1,51 @@
+.form-wrapper1 {
+    max-width: 300px;
+    margin: auto;
+}
+
+.form-wrapper2 {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-wrapper2 .btn {
+    width: 70%;
+    margin: auto;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.user-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.left-border {
+    position: relative;
+}
+
+.left-border:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 60%;
+    background: black;
+    left: 0;
+}
+
+.user {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.user .item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
